@@ -70,22 +70,18 @@ body{
         color: white;
         font-size: 40px;
     }
-    h2{
-        width: 100%;
-        background-color:  white;
-        color:  hsl(240, 64%, 20%);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        padding-left: 30px;
-        padding-top: 20px;
-        background-color: gray;
-    }
+}
+.types{
+   font-family: 'Segoe UI', sans-serif;
+      padding: 30px;
+      text-align: center;
 }
 ol{
   padding-left: 2%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: gray;
+  background-color: #fefcf9;
     a{
         color: hsl(240, 64%, 20%);
     }
