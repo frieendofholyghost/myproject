@@ -1,0 +1,349 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   background-color: hsl(240, 64%, 20%) ;
+}
+/*style en-tete*/
+header{
+    display: flex;
+    background-color: #f2f1f0;
+    border-bottom:5px solid  hsl(240, 64%, 20%);
+}
+/*redimensionnement du logo*/
+.logo{
+    margin-top: 9px;
+    margin-right: 10px;
+    padding-right: 110px;
+    
+}
+/*style liens de la barre*/
+.barnav a{
+    text-decoration: none;
+    color: hsl(240, 64%, 20%);
+    justify-content: space-between;
+    padding-right: 100px;
+    font-size: large;
+}
+/*style si le curseur se pose dessus*/
+.barnav a:hover{
+    text-decoration: underline;
+  
+}
+/*style de la barre*/
+.barnav{
+    display: flex;
+    padding: 50px 195px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*introduction*/
+.presentation{
+  display: flex;
+  color: hsl(240, 64%, 20%) ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 60%;
+  padding-top: 100px;
+  h1{
+    font-size: 70px;
+    padding-top: 40%;
+    border-bottom: 5px solid  hsl(240, 64%, 20%) ;
+  }
+  background-image: url(../imagesite/docteurcravatebleu.avif);
+  background-size: cover;
+  height: 700px;
+}
+/*presentation des sortes */
+.presort{
+   display: flex;
+   flex-wrap: wrap;
+   background-color: hsl(240, 64%, 20%);
+   justify-content: space-around;
+   margin-top: 20px;
+
+}
+.pres{
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 45px;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  color: #006666;
+}
+.pres img{
+  width: 150px;
+  height: 150px;
+  padding-top: 20px;
+}
+.pres figcaption{
+  padding-top:  20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.pres button{
+  background-color: #006666;
+  width: 170px;
+  height: 40px;
+  border-radius: 10px;
+  a{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+    background-color: #006666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}
+.pres2{
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 45px;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+}
+.pres2 img{
+   width: 150px;
+   height: 150px;
+   padding-top: 20px;
+}
+.pres2 figcaption{
+  padding-top:  20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.pres2 button{
+  background-color: #006666;
+  width: 170px;
+  height: 40px;
+  border-radius: 15px;
+  a{
+    text-decoration: none;
+    color:white;
+    background-color: #006666;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}
+.pres3{
+  background-color: white;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-bottom: 45px;
+  text-align: center;
+  width: 250px;
+  height: 250px;
+}
+.pres3 img{
+   width: 150px;
+   height: 150px;
+   padding-top: 20px;
+}
+.pres3 figcaption{
+  padding-top:  20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.pres3 button{
+  background-color: #006666;
+  width: 170px;
+  height: 40px;
+  border-radius: 10px;
+  padding-bottom: 45px;
+  a{
+    text-decoration: none;
+    color:white;
+    background-color: #006666;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+}
+.pres:hover{
+  transform: translateY(5px);
+  box-shadow: 3px 5px black;
+}
+.next{
+ button{
+  border-radius: 100%;
+  height: 150px;
+  width: 200px;
+  margin-top: 100px;
+  background-color: #006666;
+  color: aliceblue;
+  a{
+    text-decoration: none;
+    color:white;
+  }
+ }
+}
+/* pourquoi health*/
+.why{
+  text-align: center;
+  font-size: xX-large;
+
+  color:  hsl(240, 64%, 20%) ;
+  height: 70%;
+  align-items: center;
+  background-color: white;
+  border-bottom: 150px solid white;
+}
+.wdiv1{
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.wdiv2{
+  width: 60%;
+  height: 80%;
+  text-align: center;
+  color: white;
+  background-color: hsl(240, 64%, 20%);
+  border: 2px solid hsl(240, 64%, 20%);
+  border-radius:1% ;
+  margin-left: 20%;
+  a{
+    color:yellow;
+    text-decoration: none;
+  }
+
+}
+
+/*debut style bas de page*/
+.basdepage{
+  background-color:  hsl(240, 64%, 20%);
+  padding-left: 10%;
+  
+}
+.foot1{
+  display: flex;
+  padding-top: 5%;
+  padding-left:20px ;
+  height: 300px;
+  hr{
+    margin-left: 30%;
+  }
+}
+.text{
+  color: white;
+  padding-top: 40px;
+  padding-left: 10px;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bp{
+  display: flex;
+}
+.foot2{
+  color: white;
+  margin-left: 5%;
+  display: flex;
+  padding-top: 5%;
+  height: 300px;
+  hr{
+    margin-left: 80%;
+  }
+}
+.get{
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.getsortes{
+  padding-left: 30%;
+}
+.dernierbp{
+  color: white;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+.res{
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tel{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.email{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.insta{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.end{
+  display: inline;
+  color: white;
+  padding-top:50%;
+  font-size: large;
+  text-align: center;
+  margin-left: 30%;
+
+}
+
+@media all and (max-width: 800px) 
+{
+  header{
+    display: flex;
+    background-color: white;
+  }
+
+  .logo{
+  margin-top:   10px;
+  margin-right: 2px;
+  padding-right: 2px;
+  width: 3px;
+  
+  }
+  .barnav a{
+  text-decoration: none;
+  color: hsl(240, 64%, 20%);
+  justify-items: right;
+  align-items: right;
+  justify-content: space-between;
+  padding-right: 5px;
+  font-size: large;
+
+  
+  
+  }
+  .barnav a:hover{
+    text-decoration: none;
+    color: hsl(240, 64%, 20%);
+    font-size: x-large;
+  
+  }
+ .barnav{
+    display: flex;
+    padding: 50px 195px;
+    font-size: 15px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .basdepage{
+    
+    color: hsl(240, 64%, 20%);
+    font-weight: 1000;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f2f1f0;
+    padding-left: 130px;
+
+  }
+}

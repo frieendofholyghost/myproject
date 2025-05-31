@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*style en-tete*/
+header{
+    display: flex;
+    background-color: white;
+    border-bottom:5px solid  hsl(240, 64%, 20%);
+}
+/*redimensionnement du logo*/
+.logo{
+    margin-top: 9px;
+    margin-right: 10px;
+    padding-right: 110px;
+    
+}
+.barnav a{
+    text-decoration: none;
+    color: hsl(240, 64%, 20%);
+    justify-content: space-between;
+    padding-right: 100px;
+    font-size: large;
+}
+/*style si le curseur se pose dessus*/
+.barnav a:hover{
+    text-decoration: underline;
+  
+}
+/*style de la barre*/
+.barnav{
+    display: flex;
+    padding: 50px 195px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*style de l'introduction*/
+.intro{
+    display: flex;
+    font-size:30px;
+}
+.introimg{
+    margin-left:5%;
+    filter: saturate(200%);
+}
+.titre2{
+    padding-top: 20px;
+    color:hsl(240, 64%, 20%); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:3000;
+    margin-left: 3%;
+    margin-top: 170px;
+    margin-bottom: 170px;
+}
+/* style du contenu*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
+    gap: 10px;
+    text-decoration: none;
+    background-color: #f2f1f0;
+    border-bottom: 5px solid hsl(240, 64%, 20%) ;
+    overflow: auto;
+    
+
+}
+/*chaque carré*/
+.card{
+    border: 5px groove white ;
+    border-radius: 20px;
+    background-color: white;
+    overflow: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+    h3{
+        background-color:hsl(240, 64%, 20%)  ;
+        color: white;
+        text-align: center;
+    }
+    img{
+         width: 200px;
+         height:160px;
+         position: relative;
+         margin-top: 20px;
+         margin-left: 30px;
+   } 
+   footer{
+    background-color:hsl(240, 64%, 20%)  ;
+    height: 15.7%;
+    padding-left: 30%;
+    padding-bottom: 3%;
+    button{
+        color: white;
+        background-color: #006666;
+        border-style: groove;
+        width: 100px;
+        height: 30px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    button:hover{
+    transform:translateY(3px);
+    box-shadow: 3px 2px black;
+}
+     
+   }
+}
+/*bas de page*/
+.basdepage{
+  background-color:  hsl(240, 64%, 20%);
+  padding-left: 10%;
+  
+}
+.foot1{
+  display: flex;
+  padding-top: 5%;
+  padding-left:20px ;
+  height: 300px;
+  hr{
+    margin-left: 30%;
+  }
+}
+.text{
+  color: white;
+  padding-top: 40px;
+  padding-left: 10px;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bp{
+  display: flex;
+}
+.foot2{
+  color: white;
+  margin-left: 5%;
+  display: flex;
+  padding-top: 5%;
+  height: 300px;
+  hr{
+    margin-left: 80%;
+  }
+}
+.get{
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.getsortes{
+  padding-left: 30%;
+}
+.dernierbp{
+  color: white;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+.res{
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tel{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.email{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.insta{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.end{
+  display: inline;
+  color: white;
+  padding-top:50%;
+  font-size: large;
+  text-align: center;
+  margin-left: 30%;
+
+}
+
+  
