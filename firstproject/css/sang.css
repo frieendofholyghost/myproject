@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/*première section*/
+.introduce1{
+    background-image: url(../imagesite/vue-des-echantillons-de-tubes-d-essai-de-laboratoire.jpg);
+    background-size: 100%;
+    height: 1200px;
+    filter: saturate(200%);
+    h1{
+      font-size: 80px;
+      text-align: center;
+      width:100%;
+    }
+    h4{
+      margin-top: 4%;
+      padding-top: 2cm;
+      text-align: center;
+      color: white;
+      font-size: 60px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-left: 13%;
+      width: 75%;
+      height: 50%;
+      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+
+    }
+}
+/*style en-tete*/
+header{
+    display: flex;
+}
+/*redimensionnement du logo*/
+.logo{
+    margin-top: 9px;
+    margin-right: 10px;
+    padding-right: 110px;
+    
+}
+/*style liens*/
+.barnav a{
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+    justify-content: space-between;
+    padding-right: 100px;
+    font-size: large;
+}
+/*liens avec le cursuer desssus*/
+.barnav a:hover{
+    text-decoration: underline;
+  
+}
+/*liens barnav*/
+.barnav{
+    display: flex;
+    padding: 50px 195px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+body{
+    h1{
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+}
+.types{
+   font-family: 'Segoe UI', sans-serif;
+      padding: 30px;
+      text-align: center;
+}
+ol{
+  padding-left: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #fefcf9;
+    a{
+        color: hsl(240, 64%, 20%);
+    }
+}
+.types{
+    color: black;
+    background-color: #f2f1f0;
+    width: 100%;
+    margin-right: 25%;
+}
+.introduce{
+  li{
+    text-decoration: none;
+    color: hsl(240, 64%, 20%) ;
+    text-align: center;
+    background-color: #f2f1f0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  margin-left: 50px;
+  border: 3px solid #f2f1f0 ;
+  border-radius:10px ;
+}
+h3{
+  background-color: white;
+  color:  hsl(240, 64%, 20%);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-top: 40px;
+  font-size: 40px;
+  padding-left: 5px;
+}
+p{
+  font-size: 30px;
+  font-style: italic;
+}
+ul{
+  padding-left: 100px;
+  font-size: 20px;
+  font-style: oblique;
+}
+ul:hover{
+  a{
+    text-decoration: underline;
+  }
+}
+.part2{
+  background-color: white;
+  border-top: 5px solid hsl(240, 64%, 20%) ;
+}
+
+/*debut style bas de page*/
+.basdepage{
+  background-color:  hsl(240, 64%, 20%);
+  padding-left: 10%;
+  
+}
+.foot1{
+  display: flex;
+  padding-top: 5%;
+  padding-left:20px ;
+  height: 300px;
+  hr{
+    margin-left: 30%;
+  }
+}
+.text{
+  color: white;
+  padding-top: 40px;
+  padding-left: 10px;
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bp{
+  display: flex;
+}
+.foot2{
+  color: white;
+  margin-left: 5%;
+  display: flex;
+  padding-top: 5%;
+  height: 300px;
+  hr{
+    margin-left: 80%;
+  }
+}
+.get{
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.getsortes{
+  padding-left: 30%;
+}
+.dernierbp{
+  color: white;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+.res{
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tel{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.email{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.insta{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.end{
+  display: inline;
+  color: white;
+  padding-top:50%;
+  font-size: large;
+  text-align: center;
+  margin-left: 30%;
+
+}
+
+@media all and (max-width: 800px) 
+{
+  header{
+    display: flex;
+    background-color: white;
+  }
+
+  .logo{
+  margin-top:   10px;
+  margin-right: 2px;
+  padding-right: 2px;
+  width: 3px;
+  
+  }
+  .barnav a{
+  text-decoration: none;
+  color: hsl(240, 64%, 20%);
+  justify-items: right;
+  align-items: right;
+  justify-content: space-between;
+  padding-right: 5px;
+  font-size: large;
+
+  
+  
+  }
+  .barnav a:hover{
+    text-decoration: none;
+    color: hsl(240, 64%, 20%);
+    font-size: x-large;
+  
+  }
+ .barnav{
+    display: flex;
+    padding: 50px 195px;
+    font-size: 15px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .basdepage{
+    
+    color: hsl(240, 64%, 20%);
+    font-weight: 1000;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f2f1f0;
+    padding-left: 130px;
+
+  }
+}

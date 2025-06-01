@@ -6,29 +6,28 @@
 }
 /*première section*/
 .introduce1{
-    background-image: url(../imagesite/pexels-tima-miroshnichenko-6011611.jpg);
+    background-image: url(../imagesite/mauxdegorge.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 1000px;
-    filter: blur(100px);
-    filter: saturate(200%);
+    filter: saturate(150%);
     h1{
       font-size: 80px;
       text-align: center;
-      margin-left: 34%;
-      width:30%;
+      width:100%;
     }
     h4{
       margin-top: 4%;
-      padding-top: 2cm;
+      padding-top: 70px;
       text-align: center;
       color: white;
       font-size: 50px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin-left: 13%;
       width: 75%;
-      height: 50%;
+      height: 40%;
       background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+      background-blend-mode: multiply;
 
     }
 }
