@@ -19,6 +19,7 @@ header{
 .barnav a{
     text-decoration: none;
     color: hsl(240, 64%, 20%);
+    text-transform: uppercase;
     justify-content: space-between;
     padding-right: 100px;
     font-size: large;
