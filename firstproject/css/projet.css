@@ -5,6 +5,7 @@
 }
 body{
    background-color: hsl(240, 64%, 20%) ;
+   overflow-x: hidden;
 }
 /*style en-tete*/
 header{
