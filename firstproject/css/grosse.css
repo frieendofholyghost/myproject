@@ -9,9 +9,9 @@
     background-image: url(../imagesite/GettyImagesgrosse-1300073406-1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    backdrop-filter: blur(230px);
     height: 1600px;
-    filter: blur(100px);
-    filter: saturate(200%);
+    filter: blur(110%);
     h1{
       font-size: 80px;
       text-align: center;
