@@ -75,6 +75,7 @@ body{
         color: white;
         font-size: 40px;
     }
+    background-image: url(../imagesite/backgroundsitemedical.avif);
 }
 .types{
   display: flex;
@@ -84,6 +85,7 @@ body{
 
 }
 .pres{
+   background-color: white;
   color: hsl(240, 64%, 20%);
   font-weight: bold;
   margin-top: 2%;
@@ -93,10 +95,9 @@ body{
 .introduce{
   display: flex;
   flex-direction: column;
-  border:3px solid white;
+  border:3px solid hsl(240, 64%, 20%);
   margin-top: 3%;
   border-radius: 7px;
-  border: 2px solid lightgray;
   background-color: #f2f1f0;
   a{
     text-align: center;
@@ -108,27 +109,57 @@ body{
   }
 }
 .part2{
+  background-image: url(../imagesite/backgroundsitemedical.avif);
   margin-top: 5%;
   margin-left: 1%;
-  text-align: center;
   width: 100%;
   ul{
-    list-style: none;
+
+    padding-left: 20%;
+    font-size: 20px;
+    padding-top: 4%;
   }
   p{
     font-weight: bold;
-    font-size: large;
+    font-size: 30px;
   }
   h3{
     color: hsl(240, 64%, 20%);
-    font-size: 70px;
+    font-size: 40px;
   }
-  border-bottom: 100px solid white;
+}
+.see{
+  display: flex;
+  width: 90%;
+  height: 600px;
+  border: 3px solid hsl(240, 64%, 20%);
+  margin-top: 5%;
+  margin-left: 3%;
+  border-radius: 30px;
+  background-color: #f2f1f0;
+  .one{
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 3%;
+    p{
+      padding-left: 3%;
+      width: 80%;
+    }
+  }
+  .two{
+    position: absolute;
+    z-index: 10;
+    margin-left: 57%;
+    width: 30%;
+    margin-top: 5%;
+  
+  }
 }
 /*debut style bas de page*/
 .basdepage{
   background-color:  hsl(240, 64%, 20%);
   padding-left: 20%;
+  margin-top: 10%;
   
 }
 .foot1{

@@ -48,6 +48,14 @@ header{
     margin-left:5%;
     filter: saturate(200%);
 }
+@keyframes translate{
+      from {
+        transform:translateY(0px);
+      }
+      to{
+        transform:translateY(20px);
+      }
+    }
 .titre2{
     padding-top: 20px;
     color:hsl(240, 64%, 20%); 
@@ -56,6 +64,7 @@ header{
     margin-left: 3%;
     margin-top: 170px;
     margin-bottom: 170px;
+    animation: translateY 0.5s linear infinite;
 }
 /* style du contenu*/
 .container{
