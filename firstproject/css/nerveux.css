@@ -4,6 +4,66 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+/*style en-tete*/
+header{
+    display: flex;
+    position: fixed;
+    border-bottom:5px solid  hsl(240, 64%, 20%);
+    background-color: hsl(240, 64%, 20%);
+    margin-bottom: 50px;
+    width: 100%;
+
+}
+/*redimensionnement du logo*/
+.logo{
+  width: 70%;
+  display: flex;
+  margin-left: 3%;
+  h2{
+    font-size: 40px;
+    color: lightyellow;
+    span{
+      font-size: 80px;
+      color: #006666;
+    }
+  }
+    
+}
+/*style liens de la barre*/
+.barnav a{
+    text-decoration: none;
+    color: hsl(240, 64%, 20%);
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-size: large;
+}
+/*style si le curseur se pose dessus*/
+.barnav a:hover{
+    text-decoration: underline;
+    
+  
+}
+/*style de la barre*/
+.barnav{
+    justify-content: space-around;
+    padding-top: 13px;
+    height: 50px;
+    margin-right: 3%;
+    width: 30%;
+    display: flex;
+    margin-top: 2%;
+    border-radius: 100px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+body{
+    h1{
+        text-align: center;
+        color: white;
+        font-size: 40px;
+    }
+}
 /*première section*/
 .introduce1{
     background-image: url(../imagesite/medecinradio.jpg);
@@ -12,6 +72,7 @@
     filter: blur(100px);
     filter: saturate(200%);
     h1{
+      padding-top: 10%;
       font-size: 80px;
       text-align: center;
       margin-left: 17%;
@@ -29,46 +90,6 @@
       height: 50%;
       background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
 
-    }
-}
-/*style en-tete*/
-header{
-    display: flex;
-}
-/*redimensionnement du logo*/
-.logo{
-    margin-top: 9px;
-    margin-right: 10px;
-    padding-right: 110px;
-    
-}
-/*style liens*/
-.barnav a{
-    text-decoration: none;
-    color:white;
-    text-transform: uppercase;
-    justify-content: space-between;
-    padding-right: 100px;
-    font-size: large;
-}
-/*liens avec le cursuer desssus*/
-.barnav a:hover{
-    text-decoration: underline;
-  
-}
-/*liens barnav*/
-.barnav{
-    display: flex;
-    padding: 50px 195px;
-    font-weight: 1000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin: 0;
-}
-body{
-    h1{
-        text-align: center;
-        color: white;
-        font-size: 40px;
     }
 }
 .types{
