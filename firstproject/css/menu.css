@@ -140,10 +140,11 @@ header{
      
    }
 }
-/*bas de page*/
+/*debut style bas de page*/
 .basdepage{
   background-color:  hsl(240, 64%, 20%);
-  padding-left: 10%;
+  padding-left: 15%;
+  height: 400px;
   
 }
 .foot1{
@@ -156,11 +157,14 @@ header{
   }
 }
 .text{
+  width: 80%;
   color: white;
-  padding-top: 40px;
-  padding-left: 10px;
-  font-size: x-large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-right: 10%;
+  font-size: 50px;
+  span{
+    font-size: 100px;
+    color: #006666;
+  }
 }
 .bp{
   display: flex;
@@ -216,13 +220,18 @@ header{
   }
 }
 .end{
+  position: absolute;
   display: inline;
   color: white;
-  padding-top:50%;
-  font-size: large;
+  margin-top: 3%;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20%;
   text-align: center;
-  margin-left: 30%;
+  border-bottom: 20px solid hsl(240, 64%, 20%);
 
 }
+
 
   
