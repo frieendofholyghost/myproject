@@ -61,6 +61,13 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: white;
 }
+/*barre nav responsive*/
+.barnav2{
+  display: none;
+}
+.buttondelabarre{
+  display: none;
+}
 /*introduction*/
 .presentation{
   display: flex;
@@ -74,7 +81,8 @@ header{
     border-bottom: 5px solid  hsl(240, 64%, 20%) ;
   }
   border-top: 80px solid white;
-  background-image: url(../imagesite/docteurcravatebleu.avif);
+  background-image: url(../firstproject/imagesite/docteurcravatebleu.avif);
+  filter: saturate(100%);
   background-size: cover;
   height: 850px;
 }
@@ -96,94 +104,30 @@ header{
   margin-bottom: 45px;
   text-align: center;
   width: 250px;
-  height: 250px;
+  height: 280px;
   color: #006666;
 }
 .pres img{
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   padding-top: 20px;
 }
 .pres figcaption{
   padding-top:  20px;
   font-weight: bold;
+  font-size: 15px;
   margin-bottom: 25px;
 }
 .pres button{
   background-color: #006666;
-  width: 170px;
-  height: 40px;
-  border-radius: 10px;
+  width: 230px;
+  height: 60px;
+  border-radius: 20px;
   a{
     text-decoration: none;
     color:white;
     font-size: large;
     background-color: #006666;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-}
-.pres2{
-  background-color: white;
-  margin-top: 40px;
-  margin-left: 30px;
-  margin-bottom: 45px;
-  text-align: center;
-  width: 250px;
-  height: 250px;
-}
-.pres2 img{
-   width: 150px;
-   height: 150px;
-   padding-top: 20px;
-}
-.pres2 figcaption{
-  padding-top:  20px;
-  font-weight: bold;
-  margin-bottom: 25px;
-}
-.pres2 button{
-  background-color: #006666;
-  width: 170px;
-  height: 40px;
-  border-radius: 15px;
-  a{
-    text-decoration: none;
-    color:white;
-    background-color: #006666;
-    font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-}
-.pres3{
-  background-color: white;
-  margin-top: 40px;
-  margin-left: 30px;
-  margin-bottom: 45px;
-  text-align: center;
-  width: 250px;
-  height: 250px;
-}
-.pres3 img{
-   width: 150px;
-   height: 150px;
-   padding-top: 20px;
-}
-.pres3 figcaption{
-  padding-top:  20px;
-  font-weight: bold;
-  margin-bottom: 25px;
-}
-.pres3 button{
-  background-color: #006666;
-  width: 170px;
-  height: 40px;
-  border-radius: 10px;
-  padding-bottom: 45px;
-  a{
-    text-decoration: none;
-    color:white;
-    background-color: #006666;
-    font-size: large;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
 }
@@ -255,12 +199,10 @@ header{
   }
 
 }
-
 /*debut style bas de page*/
 .basdepage{
   background-color:  hsl(240, 64%, 20%);
   padding-left: 15%;
-  
 }
 .foot1{
   display: flex;
@@ -284,6 +226,10 @@ header{
 .bp{
   display: flex;
 }
+.terminal{
+  display: flex;
+  padding-top: 3%;
+}
 .foot2{
   color: white;
   margin-left: 5%;
@@ -304,7 +250,7 @@ header{
 .dernierbp{
   color: white;
   padding-top: 5%;
-  padding-left: 10%;
+  padding-left: 30%;
 }
 .res{
   font-size: x-large;
@@ -347,54 +293,238 @@ header{
   border-bottom: 20px solid hsl(240, 64%, 20%);
 
 }
-@media all and (max-width: 800px) 
+@media (max-width: 991px) 
 {
-  header{
-    display: flex;
-    background-color: white;
+  body{
+    overflow-x: hidden;
   }
-
-  .logo{
-  margin-top:   10px;
-  margin-right: 2px;
-  padding-right: 2px;
-  width: 3px;
-  
+  .barnav{
+    display: none;
   }
-  .barnav a{
-  text-decoration: none;
-  color: hsl(240, 64%, 20%);
-  justify-items: right;
-  align-items: right;
-  justify-content: space-between;
-  padding-right: 5px;
-  font-size: large;
-
-  
-  
+  .buttondelabarre{
+    display: block;
+    width: 25%;
+    height: 35%;
+    margin-top: 15%;
+    border-radius: 20px;
+    a{
+      text-decoration: none;
+      color: hsl(240, 64%, 20%);
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+      padding-top: 10%;
+      font-size: 20px;
+    }
   }
-  .barnav a:hover{
+  /*introduction*/
+ .presentation{
+  display: flex;
+  color: hsl(240, 64%, 20%) ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 10%;
+  margin-top: 15%;
+  h1{
+    font-size: 50px;
+    padding-top:  80%;
+    border-bottom: 6px solid  hsl(240, 64%, 20%) ;
+    margin-left: 30%;
+  }
+  p{
+    font-size: 20px;
+    margin-left: 30%;
+  }
+  border-top: 15% solid white;
+  background-image: url(../firstproject/imagesite/docteurcravatebleu.avif);
+  filter: saturate(100%);
+  background-size: cover;
+  background-position:30%;
+  background-repeat: no-repeat;
+ }
+ /*presentation des sortes */
+ .presort{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   background-color: hsl(240, 64%, 20%);
+   justify-content: space-around;
+   height: 1500px;
+   width: 100%;
+ }
+ .pres{
+  background-color: white;
+  text-align: center;
+  width: 180px;
+  height: 250px;
+  color: #006666;
+  margin-left: 25%;
+  }
+ .pres img{
+  width: 150px;
+  height: 150px;
+  padding-top: 20px;
+ }
+ .pres figcaption{
+  padding-top:  20px;
+  font-weight: bold;
+  margin-bottom: 25px;
+ }
+ .pres button{
+   background-color: #006666;
+   width: 150px;
+   height: 40px;
+  border-radius: 10px;
+  a{
     text-decoration: none;
-    color: hsl(240, 64%, 20%);
-    font-size: x-large;
-  
-  }
- .barnav{
-    display: flex;
-    padding: 50px 195px;
+    color:white;
     font-size: 15px;
-    font-weight: 1000;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #006666;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
+ }
+ .pres:hover{
+  transform: translateY(5px);
+  box-shadow: 3px 5px black;
+  transition: 0.7s;
+ }
+ .next{
+    justify-items: center;
+    margin-bottom:  40%;
+    button{
+     position: absolute;
+     border-radius: 3%;
+     height: 10%;
+     width: 90%;
+     margin-left: 4%;
+     background-color: #006666;
+     color:white;
+     font-size: 30px;
+     font-weight: bold;
+     text-transform: capitalize;
+     font-family: 'Times New Roman', Times, serif;
+     box-shadow: 3px 2px black;
+     a{
+       text-decoration: none;
+       color:white;
+       font-size: 40px;
+     }
+   }
+  }
+  .next:hover{
+     button{
+      background-color: white;
+      color: hsl(240, 64%, 20%);
+      transform: translateY(5px 3px);
+      box-shadow: 2px 3px black;
+      transition: 1.5s;
+    }
+  }
+  /* pourquoi health*/
+  .why{
+     text-align: center;
+     font-size: xX-large;
+     color:  hsl(240, 64%, 20%) ;
+     height: 70%;
+     align-items: center;
+     background-color: white;
+     border-bottom: 150px solid white;
+   }
+  .wdiv1{
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+  .wdiv2{
+    width: 90%;
+    text-align: center;
+    color: white;
+    background-color: hsl(240, 64%, 20%);
+    border: 2px solid hsl(240, 64%, 20%);
+    border-radius:1% ;
+    margin-left: 5%;
+    a{
+      color:yellow;
+      text-decoration: none;
+    }
+  }
+  /*debut style bas de page*/
   .basdepage{
-    
-    color: hsl(240, 64%, 20%);
-    font-weight: 1000;
-    align-items: center;
-    font-size: 15px;
+     background-color:  hsl(240, 64%, 20%);
+  }
+  .foot1{
+    padding-top: 5%;
+    height: 300px;
+    hr{
+      margin-left: 10%;
+    }
+  }
+  .text{
+    color: white;
+    margin-right: 20%;
+    font-size: 30px;
+    span{
+      font-size: 50px;
+      color: #006666;
+   }
+  }
+  .bp{
+    display: flex;
+  }
+  .terminal{
+    display: flex;
+    flex-direction: column;
+  }
+  .dernierbp{
+   position: absolute;
+   margin-right: 100%;
+  }
+  .foot2{
+    color: white;
+    display: flex;
+    padding-top: 5%;
+    height: 500px;
+  }
+  .get{
+    font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #f2f1f0;
-    padding-left: 130px;
-
+    padding-left: 10%;
+  }
+  .res{
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .tel{
+    display: flex;
+    padding-left: 20%;
+    p{
+      padding-top: 10%;
+      font-weight: bold;
+    }
+  }
+  .email{
+    display: flex;
+    padding-left: 20%;
+    p{
+      padding-top: 10%;
+      font-weight: bold;
+    }
+  }
+  .insta{
+    display: flex;
+    padding-left: 20%;
+    p{
+      padding-top: 10%;
+      font-weight: bold;
+    }
+  }
+  .end{
+    position: absolute;
+    display: inline;
+    color: white;
+    margin-top: 3%;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20%;
+    text-align: center;
+    border-bottom: 20px solid hsl(240, 64%, 20%);
   }
 }
