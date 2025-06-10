@@ -34,7 +34,7 @@ header{
     text-decoration: none;
     color: hsl(240, 64%, 20%);
     text-transform: uppercase;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: large;
 }
 /*style si le curseur se pose dessus*/
@@ -48,7 +48,6 @@ header{
     justify-content: space-around;
     padding-top: 13px;
     height: 50px;
-    margin-right: 3%;
     width: 30%;
     display: flex;
     margin-top: 2%;
@@ -71,7 +70,7 @@ body{
     background-size: 100%;
     backdrop-filter: blur(230px);
     height: 1600px;
-    filter: blur(110%);
+    filter: saturate(-100%);
     h1{
       padding-top: 10%;
       font-size: 80px;

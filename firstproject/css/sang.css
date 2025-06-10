@@ -72,7 +72,7 @@ body{
     background-image: url(../imagesite/vue-des-echantillons-de-tubes-d-essai-de-laboratoire.jpg);
     background-size: 100%;
     height: 1200px;
-    filter: saturate(200%);
+    filter: saturate(150%);
     h1{
       padding-top: 10%;
       font-size: 80px;
@@ -175,7 +175,8 @@ body{
 /*debut style bas de page*/
 .basdepage{
   background-color:  hsl(240, 64%, 20%);
-  padding-left: 20%;
+  padding-left: 15%;
+  height: 400px;
   margin-top: 10%;
   
 }
@@ -189,11 +190,14 @@ body{
   }
 }
 .text{
+  width: 80%;
   color: white;
-  padding-top: 40px;
-  padding-left: 10px;
-  font-size: x-large;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-right: 10%;
+  font-size: 50px;
+  span{
+    font-size: 100px;
+    color: #006666;
+  }
 }
 .bp{
   display: flex;
@@ -226,6 +230,7 @@ body{
 }
 .tel{
   display: flex;
+  padding-left: 20%;
   p{
     padding-top: 10%;
     font-weight: bold;
@@ -233,6 +238,7 @@ body{
 }
 .email{
   display: flex;
+  padding-left: 20%;
   p{
     padding-top: 10%;
     font-weight: bold;
@@ -240,21 +246,24 @@ body{
 }
 .insta{
   display: flex;
+  padding-left: 20%;
   p{
     padding-top: 10%;
     font-weight: bold;
   }
 }
 .end{
+  position: absolute;
   display: inline;
   color: white;
-  padding-top:50%;
-  font-size: large;
+  margin-top: 3%;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20%;
   text-align: center;
-  margin-left: 30%;
-
+  border-bottom: 20px solid hsl(240, 64%, 20%);
 }
-
 @media all and (max-width: 800px) 
 {
   header{

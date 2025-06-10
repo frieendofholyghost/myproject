@@ -71,7 +71,7 @@ body{
     background-size: 100%;
     height: 1400px;
     filter: blur(100px);
-    filter: saturate(200%);
+    filter: saturate(150%);
     h1{
      padding-top: 10%;
       font-size: 80px;
@@ -97,4 +97,96 @@ body{
    font-family: 'Segoe UI', sans-serif;
       padding: 30px;
       text-align: center;
+}
+/*debut style bas de page*/
+.basdepage{
+  background-color:  hsl(240, 64%, 20%);
+  padding-left: 15%;
+  height: 400px;
+  margin-top: 10%;
+  
+}
+.foot1{
+  display: flex;
+  padding-top: 5%;
+  padding-left:20px ;
+  height: 300px;
+  hr{
+    margin-left: 30%;
+  }
+}
+.text{
+  width: 80%;
+  color: white;
+  padding-right: 10%;
+  font-size: 50px;
+  span{
+    font-size: 100px;
+    color: #006666;
+  }
+}
+.bp{
+  display: flex;
+}
+.foot2{
+  color: white;
+  margin-left: 5%;
+  display: flex;
+  padding-top: 5%;
+  height: 300px;
+  hr{
+    margin-left: 80%;
+  }
+}
+.get{
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.getsortes{
+  padding-left: 30%;
+}
+.dernierbp{
+  color: white;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+.res{
+  font-size: x-large;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.tel{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.email{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.insta{
+  display: flex;
+  padding-left: 20%;
+  p{
+    padding-top: 10%;
+    font-weight: bold;
+  }
+}
+.end{
+  position: absolute;
+  display: inline;
+  color: white;
+  margin-top: 3%;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 20%;
+  text-align: center;
+  border-bottom: 20px solid hsl(240, 64%, 20%);
 }
