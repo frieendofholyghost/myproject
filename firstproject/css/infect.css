@@ -17,11 +17,12 @@ body{
 /*style en-tete*/
 header{
     display: flex;
-    position: fixed;
+    position: absolute;
     border-bottom:5px solid  hsl(240, 64%, 20%);
     background-color: hsl(240, 64%, 20%);
     margin-bottom: 50px;
     width: 100%;
+    color: #006666;
 
 }
 /*redimensionnement du logo*/

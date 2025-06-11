@@ -75,6 +75,7 @@ body{
     height: 1000px;
     filter: saturate(150%);
     h1{
+      color:#006666;
       padding-top: 10%;
       font-size: 80px;
       text-align: center;
