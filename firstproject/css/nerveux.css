@@ -73,6 +73,7 @@ body{
     height: 1000px;
     filter: blur(100px);
     filter: saturate(150%);
+    /*premier titre*/
     h1{
       color:#006666;
       padding-top: 10%;
@@ -81,6 +82,7 @@ body{
       margin-left: 17%;
       width:70%;
     }
+    /*explication titre*/
     h4{
       margin-top: 4%;
       padding-top: 2cm;
@@ -98,7 +100,6 @@ body{
 /*style du contenu*/
 .types{
   display: flex;
-  height: 40%;
   justify-content: center;
   ol{
     padding-top: 2%;
@@ -116,6 +117,7 @@ body{
   }
 
 }
+/* texte d'introduction aux sortes*/
 .pres{
    background-color: white;
    color: hsl(240, 64%, 20%);
@@ -124,6 +126,7 @@ body{
    text-align: center;
    font-size: 20px;
 }
+/*style des classifications*/
 ol{
   .introduce{
   display: flex;
@@ -146,6 +149,7 @@ ol{
   gap: 30px;
 }
 }
+/*developpement des sortes*/
 .part2{
   margin-top: 5%;
   margin-left: 1%;
