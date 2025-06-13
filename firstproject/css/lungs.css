@@ -58,6 +58,7 @@ header{
     background-color: white;
 }
 body{
+  overflow-x: hidden;
     h1{
         text-align: center;
         color: white;
@@ -94,10 +95,87 @@ body{
 
     }
 }
+/*style du contenu*/
 .types{
-   font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 3%;
+     font-family: 'Segoe UI', sans-serif;
       padding: 30px;
       text-align: center;
+}
+/*phrase introductive*/
+.pres{
+   background-color: white;
+  color: hsl(240, 64%, 20%);
+  font-weight: bold;
+  margin-top: 2%;
+  text-align: center;
+  font-size: 40px;
+}
+.introduce{
+  display: flex;
+  flex-direction: column;
+  border:3px solid hsl(240, 64%, 20%);
+  margin-top: 3%;
+  border-radius: 7px;
+  background-color: #f2f1f0;
+  a{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20%;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: hsl(240, 64%, 20%);
+  }
+}
+.part2{
+  background-image: url(../imagesite/backgroundsitemedical.avif);
+  margin-top: 5%;
+  margin-left: 1%;
+  width: 100%;
+  z-index: 1;
+  ul{
+
+    padding-left: 20%;
+    font-size: 20px;
+    padding-top: 4%;
+  }
+  p{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  h3{
+    color: hsl(240, 64%, 20%);
+    font-size: 40px;
+  }
+}
+.see{
+  display: flex;
+  width: 90%;
+  height: 800px;
+  border: 3px solid hsl(240, 64%, 20%);
+  margin-top: 5%;
+  margin-left: 3%;
+  border-radius: 30px;
+  background-color: #f2f1f0;
+  .one{
+    width: 70%;
+    margin-left: 5%;
+    margin-top: 3%;
+    p{
+      padding-left: 3%;
+      width: 80%;
+    }
+  }
+  .two{
+    position: absolute;
+    z-index: 10;
+    margin-left: 57%;
+    width: 30%;
+    margin-top: 5%;
+  
+  }
 }
 /*debut style bas de page*/
 .basdepage{

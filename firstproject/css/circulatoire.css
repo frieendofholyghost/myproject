@@ -58,6 +58,7 @@ header{
     background-color: white;
 }
 body{
+   overflow-x: hidden;
     h1{
         text-align: center;
         color:#006666;
@@ -68,34 +69,118 @@ body{
 .introduce1{
     background-image: url(../imagesite/coeurreel.jpg);
     background-size: 100%;
-    height: 1400px;
-    filter: blur(100px);
-    filter: saturate(200%);
+    background-repeat: no-repeat;
+    height: 1200px;
+    filter: saturate(150%);
     h1{
-     padding-top: 10%;
+      color:#006666;
+      padding-top: 10%;
       font-size: 80px;
       text-align: center;
-      margin-left: 17%;
-      width:70%;
+      width:100%;
     }
     h4{
-      margin-top: 6%;
-      padding-top: 5cm;
+      margin-top: 10%;
+      padding-top: 12%;
       text-align: center;
       color: white;
       font-size: 60px;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-family: Georgia, 'Times New Roman', Times, serif;
       margin-left: 13%;
       width: 75%;
-      height: 50%;
+      height: 60%;
       background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+      background-blend-mode: multiply;
 
     }
 }
 .types{
-   font-family: 'Segoe UI', sans-serif;
-      padding: 30px;
-      text-align: center;
+  display: flex;
+  gap: 200px;
+  height: 400px;
+  justify-content: center;
+
+}
+.pres{
+   background-color: white;
+  color: hsl(240, 64%, 20%);
+  font-weight: bold;
+  margin-top: 2%;
+  text-align: center;
+  font-size: 40px;
+}
+.introduce{
+  display: flex;
+  flex-direction: column;
+  border:3px solid hsl(240, 64%, 20%);
+  margin-top: 3%;
+  border-radius: 7px;
+  background-color: #f2f1f0;
+  a{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20%;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    color: hsl(240, 64%, 20%);
+  }
+}
+.part2{
+  background-image: url(../imagesite/backgroundsitemedical.avif);
+  margin-top: 5%;
+  margin-left: 1%;
+  width: 100%;
+  ul{
+
+    padding-left: 20%;
+    font-size: 20px;
+    padding-top: 4%;
+  }
+  p{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  h3{
+    color: hsl(240, 64%, 20%);
+    font-size: 40px;
+  }
+}
+.see{
+  display: flex;
+  width: 90%;
+  height: 3400px;
+  border: 3px solid hsl(240, 64%, 20%);
+  margin-top: 5%;
+  margin-left: 3%;
+  border-radius: 30px;
+  background-color: #f2f1f0;
+  .one{
+    width: 70%;
+    margin-left: 3%;
+    margin-top: 3%;
+    p{
+      padding-left: 3%;
+      width: 80%;
+    }
+    ol{
+      li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        padding-left: 3%;
+        padding-top: 2px;
+      }
+    }
+  }
+  .two{
+    position: absolute;
+    z-index: 10;
+    margin-left: 55%;
+    width: 30%;
+    margin-top: 7%;
+    border-radius: 10%;
+  
+  }
 }
 /*debut style bas de page*/
 .basdepage{
